@@ -8,28 +8,50 @@
      <title>Perdidos</title>
 
 </head>
- 
 <body>
-<h1>Formulário</h1>
-<p>Playlist para curtir com os amigos</p>
-<hr> 
-<form action="">
-<label for="serio"> Nome da sua playlist: </label>
-<input type="tex" id="serio" name="nome da sua playlist">
-<label for="estilos"> Defina seus estilos: </label>
-<input type="checkbox" id="estilos" nome="CAVALO"
+<h1>Estilos Musicais</h1>
 
-<label for="cars">Choose a car:</label>
-<select id="cars" name="cars">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="fiat">Fiat</option>
-  <option value="audi">Audi</option>
-</select> 
+<form>
+   <label for="fname">Seu Nome:</label><br>
+   <input type="text" id="fname" name="fname"><br><br>   
+   <label for="lname">Nome da sua Playlist:</label><br>
+   <input type="text" id="lname" name="lname"><br><br>
+ </form> 
 
+ <p>Defina seu estilo:</p><br>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Forró">
+  <label for="vehicle1"> Forró</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Funk">
+  <label for="vehicle2"> Funk </label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Internacional">
+  <label for="vehicle3"> Internacional</label><br>
+  <input type="checkbox" id="vehicle4" name="vehicle4" value="MPB">
+  <label for="vehicle1"> MPB</label><br>
+  <input type="checkbox" id="vehicle5" name="vehicle5" value="Sertanejo">
+  <label for="vehicle2"> Sertanejo </label><br>
+  <input type="checkbox" id="vehicle6" name="vehicle6" value="Rock">
+  <label for="vehicle3"> Rock</label><br><br>
+</form><br>
+<p>
+<label for="músicas">Outros Estilos:</label>
+<select id="estilo" name="estilo">
+  <option value="Axé">Axé</option>
+  <option value="Clássica">Clássica</option>
+  <option value="Country">Country</option>
+  <option value="Eletrônica">Eletrônica</option>
+  <option value="Gospel">Gospel</option>
+  <option value="Hip Hop"> Hip Hop</option>
+  <option value="Rap">Rap</option>
+  <option value="K-pop">K-pop</option>
+</select></p>
+<input type="submit" value="Enviar">
 
 </body>
 </html>
+
+
 
 
 
